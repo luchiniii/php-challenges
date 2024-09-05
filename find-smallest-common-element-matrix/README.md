@@ -63,4 +63,6 @@ function smallestCommonElement(array $matrix): int
 }
 
 $matrix1 = [[1,2,3,4,5],[2,4,5,8,10],[3,5,7,9,11],[1,3,5,7,9]];
+echo 'Input: ' . json_encode($matrix1) . PHP_EOL;
+echo 'Output: ' . smallestCommonElement($matrix1) . PHP_EOL;
 ```

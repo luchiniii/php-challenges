@@ -20,7 +20,7 @@ Input: $matrix = [[1,2,3],[4,5,6],[7,8,9]]
 Output: -1
 ```
 
-## Solution 1:
+## Solution 1: [link](https://3v4l.org/Isqlo)
 this solution uses native php methods:
 
 ```php
@@ -38,7 +38,7 @@ echo 'Input: ' . json_encode($matrix1) . PHP_EOL;
 echo 'Output: ' . smallestCommonElement($matrix1) . PHP_EOL;
 ```
 
-## Solution2:
+## Solution2: [link](https://3v4l.org/XVbGZ)
 this solution do not use native php methods:
 
 ```php

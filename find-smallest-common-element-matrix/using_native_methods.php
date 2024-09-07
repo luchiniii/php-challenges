@@ -3,10 +3,8 @@
 function smallestCommonElement(array $matrix): int
 {
     $result = array_intersect(...$matrix);
-    if (empty($result)) {
-        return -1;
-    }
-    return min($result);
+
+    return empty($result) ? -1 : min($result);
 }
 
 $matrix1 = [[1,2,3,4,5],[2,4,5,8,10],[3,5,7,9,11],[1,3,5,7,9]];

@@ -37,6 +37,9 @@ For the given example the result should be:
 lfppt wtrpd
 ```
 
+Pay attention on how magic methods work on a class, here we should use `__toString` 
+
+
 ### Test Case 1
 ```php
 Input: $record = 'hello world:a:b:c'; $matrix = ['h' => 't', 'e' => 'a', 'a' => 'b', 'c' => 'd']; 

@@ -1,4 +1,4 @@
-# find smallest common element in a matrix
+# find smallest common element in a matrix challenge
 
 Given a matrix where every row is sorted in increasing order. Write a function that finds and returns a common element in all rows. If there is no common element, then returns -1. 
 

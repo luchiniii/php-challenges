@@ -1,4 +1,4 @@
-# Cesaer Cipher Class
+# Cesaer Cipher Class Challenge
 
 I was given this class. The goal was to add the body for the `__construct` method and, at the end we should see the result of the ciphered string just by calling printing the object like this
 `echo new Cipher('something')`
